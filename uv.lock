@@ -483,6 +483,7 @@ dependencies = [
     { name = "torchdiffeq" },
     { name = "torchvision" },
     { name = "transformers" },
+    { name = "vsreval" },
     { name = "wandb" },
 ]
 
@@ -510,6 +511,7 @@ requires-dist = [
     { name = "torchdiffeq" },
     { name = "torchvision", specifier = ">=0.20.0", index = "https://download.pytorch.org/whl/cu124" },
     { name = "transformers", specifier = ">=4.46.2" },
+    { name = "vsreval", specifier = ">=0.1.0" },
     { name = "wandb" },
 ]
 
@@ -2444,6 +2446,29 @@ dependencies = [
 sdist = { url = "https://pypi.tuna.tsinghua.edu.cn/packages/34/d9/b477fddb68840b570af8b22afe9b035cbc277b5fb7b33dea390617a8b10f/virtualenv-21.6.1.tar.gz", hash = "sha256:15f978b7cd329f24855ff4a0c4b4899cc7678589f49adbdcbbb4d3232e641128", size = 5526620, upload-time = "2026-07-10T19:33:53.312Z" }
 wheels = [
     { url = "https://pypi.tuna.tsinghua.edu.cn/packages/c1/7c/4e7225d46d634a0d8d534dd8a6ce0c319d09b4d0cf0337eb314ca4789d8c/virtualenv-21.6.1-py3-none-any.whl", hash = "sha256:afe991df855715a2b2f60edfcc0107ef95a79fdfd8cb4cdaa71603d1c12e463b", size = 5506392, upload-time = "2026-07-10T19:33:51.629Z" },
+]
+
+[[package]]
+name = "vsreval"
+version = "0.1.0"
+source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
+dependencies = [
+    { name = "decord" },
+    { name = "einops" },
+    { name = "imageio" },
+    { name = "imageio-ffmpeg" },
+    { name = "numpy" },
+    { name = "opencv-python-headless" },
+    { name = "pyiqa" },
+    { name = "setuptools" },
+    { name = "timm" },
+    { name = "torch" },
+    { name = "torchvision" },
+    { name = "tqdm" },
+]
+sdist = { url = "https://pypi.tuna.tsinghua.edu.cn/packages/e2/08/9758a775292cf56a2bc31c627e778d8df53d865aab12323bf8641ecec47b/vsreval-0.1.0.tar.gz", hash = "sha256:0ba2e909ce7603fc40f19a7ce0ab40ab561c02b4dffc9cc50cd5c4e5b2614429", size = 162042, upload-time = "2026-10-24T11:18:54.712Z" }
+wheels = [
+    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/19/6b/c33327051f62ab8c348e139249256fa893eedf08776a718ce6e94c155b08/vsreval-0.1.0-py3-none-any.whl", hash = "sha256:b5080fd29ddbbc97fcda5cb329b6119ea10e9d88fea78fb588680ff29a2280f6", size = 53552, upload-time = "2026-10-24T11:18:51.581Z" },
 ]
 
 [[package]]

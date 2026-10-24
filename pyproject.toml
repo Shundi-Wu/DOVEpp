@@ -27,6 +27,7 @@ dependencies = [
   "torchdiffeq",
   "torchvision>=0.20.0",
   "transformers>=4.46.2",
+  "vsreval>=0.1.0",
   "wandb",
 ]
 
